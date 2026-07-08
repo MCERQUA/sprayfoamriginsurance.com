@@ -1,13 +1,14 @@
 [build]
   command = "pnpm run build"
-  publish = ".next"
+  # Static export output dir — REQUIRED for Netlify Forms capture (see next.config).
+  publish = "out"
 
 [build.environment]
   NEXT_DISABLE_TURBOPACK = "1"
   NODE_VERSION = "18"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+# NOTE: @netlify/plugin-nextjs INTENTIONALLY OMITTED — its runtime intercepts
+# form POSTs and breaks Netlify Forms lead capture. Do NOT add it.
 
 [[notifications]]
   event = "submission_created"
