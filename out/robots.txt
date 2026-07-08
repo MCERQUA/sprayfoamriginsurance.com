@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://sprayfoamriginsurance.com
+Sitemap: https://sprayfoamriginsurance.com/sitemap.xml
