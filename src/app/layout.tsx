@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: `${SITE.name} | Contractors Choice Agency`,
     description:
       "Insurance for spray foam rigs — inland marine at replacement cost, equipment breakdown, business auto for rig trucks, theft coverage, and CPL for isocyanate exposure. Licensed all 50 states. 15-min quotes.",
-    images: [{ url: "/images/og-image.jpg", width: 1200, height: 630, alt: `${SITE.name} — spray foam rig and equipment coverage` }],
+    images: [{ url: "/images/og-image.jpg", width: 1200, height: 624, alt: `${SITE.name} — spray foam rig and equipment coverage` }],
   },
   twitter: {
     card: "summary_large_image",
