@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Menu, X, Phone, Milk } from "lucide-react";
+import { Menu, X, Phone, SprayCan } from "lucide-react";
 import { NAV_LINKS, SITE, BRAND } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
@@ -34,7 +34,7 @@ export function Navbar() {
       <nav className="container-wide flex items-center justify-between h-18 py-3">
         <Link href="/" className="flex items-center gap-2.5 group" aria-label={`${SITE.name} home`}>
           <span className="relative inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-clay-gradient shadow-warm">
-            <Milk className="h-5 w-5 text-white" strokeWidth={2.4} />
+            <SprayCan className="h-5 w-5 text-white" strokeWidth={2.4} />
             <span className="absolute -bottom-1 -right-1 h-3 w-3 rounded-full bg-gold border-2 border-cream" />
           </span>
           <span className="flex flex-col leading-none">

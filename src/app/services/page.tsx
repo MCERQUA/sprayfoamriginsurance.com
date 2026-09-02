@@ -6,15 +6,11 @@ import { CTABand } from "@/components/sections/CTABand";
 import { FadeIn } from "@/components/animations/FadeIn";
 import { SERVICES, SITE } from "@/lib/site";
 import { COPY } from "@/lib/content";
-import {
-  ShieldCheck, HardHat, FlaskConical, Truck, Wrench, FileCheck,
-  Building2, Umbrella, PackageCheck, Factory, Gauge, Boxes, ArrowRight,
-  Milk, Droplets, Package, Award,
-} from "lucide-react";
+import { ShieldCheck, HardHat, FlaskConical, Truck, Wrench, FileCheck, Building2, Umbrella, PackageCheck, Factory, Gauge, Boxes, ArrowRight, SprayCan, Droplets, Package, Award } from "lucide-react";
 
 const ICONS = {
   ShieldCheck, HardHat, FlaskConical, Truck, Wrench, FileCheck, Building2, Umbrella,
-  PackageCheck, Factory, Gauge, Boxes, Milk, Droplets, Package, Award,
+  PackageCheck, Factory, Gauge, Boxes, Droplets, Package, Award,
 } as const;
 
 export const metadata: Metadata = {
