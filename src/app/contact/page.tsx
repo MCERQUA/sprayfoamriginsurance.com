@@ -97,7 +97,7 @@ export default function ContactPage() {
 
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div><label htmlFor="name" className={labelClass}>Name *</label><input id="name" name="name" type="text" required value={formData.name} onChange={handleChange} placeholder="Jane Smith" className={inputClass} /></div>
-                    <div><label htmlFor="phone" className={labelClass}>Phone</label><input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleChange} placeholder="(608) 555-0100" className={inputClass} /></div>
+                    <div><label htmlFor="phone" className={labelClass}>Phone</label><input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleChange} placeholder="Best number to reach you" className={inputClass} /></div>
                   </div>
 
                   <div><label htmlFor="email" className={labelClass}>Email *</label><input id="email" name="email" type="email" required value={formData.email} onChange={handleChange} placeholder={COPY.quote.emailPlaceholder} className={inputClass} /></div>

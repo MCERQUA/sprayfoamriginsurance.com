@@ -126,7 +126,7 @@ export const COPY = {
     lead: "Tell us about your rig and operation. We'll shop A-rated specialty markets and come back with real quotes in about 15 minutes — no obligation.",
     businessPlaceholder: "Precision Foam LLC",
     emailPlaceholder: "mike@precisionfoam.com",
-    phonePlaceholder: "(713) 555-0100",
+    phonePlaceholder: "Best number to reach you",
     messagePlaceholder:
       "Proportioner make/model/year, heated hose footage, spray gun count, trailer or truck-mount, rig value, rig truck year/make/model, crew size, types of jobs, states you work in, current insurer, loss history, or anything else that helps us quote accurately…",
     errorMessage: "Something went wrong. Please call us at 844-967-5247 or try again.",
