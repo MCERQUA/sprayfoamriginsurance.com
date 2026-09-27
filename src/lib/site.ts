@@ -159,8 +159,4 @@ export const STATS = [
   { value: 50, suffix: "", label: "States licensed & writing", prefix: "" },
 ] as const;
 
-export const TESTIMONIALS = [
-  { quote: "My proportioner and heated hose were stolen off the trailer overnight — a $60,000 loss. My inland marine was at ACV and paid maybe 60% of replacement cost. Spray Foam Rig Insurance put me on replacement cost and I've never looked back.", name: "Marcus T.", role: "Owner / Applicator", location: "Texas" },
-  { quote: "The proportioner had a compressor failure mid-job. My property policy said 'not covered — that's a breakdown.' The equipment-breakdown endorsement paid the repair and two days of business interruption. That's why rig coverage needs both lines.", name: "Denise R.", role: "Operations Manager", location: "Florida" },
-  { quote: "I thought my rig was covered under my commercial auto. It wasn't — the auto covers the truck; the equipment on the trailer needs inland marine. Found out when someone broke into my trailer. Now everything's on a scheduled inland marine at replacement cost.", name: "Kevin W.", role: "Spray Foam Contractor", location: "Ohio" },
-] as const;
+export const TESTIMONIALS: { quote: string; name: string; role: string; location: string }[] = [];

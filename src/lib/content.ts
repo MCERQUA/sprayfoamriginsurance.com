@@ -51,11 +51,6 @@ export const COPY = {
   process: {
     lead: "No generic equipment schedules. We build rig coverage around your actual proportioner value, hose system, and truck — at replacement cost, with breakdown where you need it.",
   },
-  testimonials: {
-    eyebrow: "From spray foam rig operators",
-    h2Lead: "Contractors who got",
-    h2Highlight: "their rig covered correctly",
-  },
   finalCta: {
     h2Lead: "Protect Your Spray Foam Rig",
     h2Highlight: "at replacement cost.",
