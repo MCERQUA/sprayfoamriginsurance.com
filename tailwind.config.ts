@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 /* ============================================================
-   DAIRY INSURANCE — "Fresh Pasture" palette
+   SPRAY FOAM RIG INSURANCE — "Fresh Pasture" palette (sage is rust since the 2026-09-27 pass)
    Token NAMES are inherited from the shared component architecture;
    VALUES are remapped to pasture green (primary) / stream blue
    (secondary) / honey gold (accent).
