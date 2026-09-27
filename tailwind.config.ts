@@ -36,18 +36,20 @@ const config: Config = {
           800: "#173820",
           900: "#0F2615",
         },
+        // Was a blue ramp under the "sage" name; now rust/copper
+        // (Josh: no blue/purple/pink). #B4460F is 5.2:1 on cream, white on it 5.5:1.
         sage: {
-          DEFAULT: "#2E7BB5",
-          dark: "#1F5E8C",
-          light: "#5DA0CC",
-          50: "#ECF4FA",
-          100: "#D2E6F3",
-          200: "#A6CEE4",
-          300: "#5DA0CC",
-          400: "#3E8DC0",
-          500: "#2E7BB5",
-          600: "#1F5E8C",
-          700: "#174866",
+          DEFAULT: "#B4460F",
+          dark: "#8A3510",
+          light: "#E8A06A",
+          50: "#FBEFE6",
+          100: "#F6D9C4",
+          200: "#EDB795",
+          300: "#E8A06A",
+          400: "#CC6428",
+          500: "#B4460F",
+          600: "#8A3510",
+          700: "#6B2F14",
         },
         gold: {
           DEFAULT: "#E0A82E",
@@ -81,9 +83,9 @@ const config: Config = {
         "sunrise-bands":
           "linear-gradient(180deg, #FBF9F4 0%, #F1F5EC 40%, #EEF7EE 70%, #FBF9F4 100%)",
         "warm-radial":
-          "radial-gradient(circle at 30% 20%, rgba(74,139,88,0.12) 0%, transparent 50%), radial-gradient(circle at 80% 70%, rgba(46,123,181,0.08) 0%, transparent 55%)",
+          "radial-gradient(circle at 30% 20%, rgba(74,139,88,0.12) 0%, transparent 50%), radial-gradient(circle at 80% 70%, rgba(180,70,15,0.08) 0%, transparent 55%)",
         "clay-gradient": "linear-gradient(135deg, #2F6B3E 0%, #4A8B58 100%)",
-        "sage-gradient": "linear-gradient(135deg, #2E7BB5 0%, #5DA0CC 100%)",
+        "sage-gradient": "linear-gradient(135deg, #B4460F 0%, #E8A06A 100%)",
         "gold-gradient": "linear-gradient(135deg, #E0A82E 0%, #F0C868 100%)",
       },
       boxShadow: {

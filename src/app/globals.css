@@ -16,7 +16,7 @@
     --bg-white: #FFFFFF;
     --clay: #2F6B3E;
     --clay-dark: #21502E;
-    --sage: #2E7BB5;
+    --sage: #B4460F;
     --gold: #E0A82E;
     --espresso: #1B2A22;
     --cocoa: #44544A;
@@ -99,7 +99,7 @@
     position: absolute;
     top: 0; left: 0; right: 0;
     height: 6px;
-    background: linear-gradient(90deg, #2F6B3E 0%, #4A8B58 24%, #2E7BB5 58%, #E0A82E 100%);
+    background: linear-gradient(90deg, #2F6B3E 0%, #4A8B58 24%, #B4460F 58%, #E0A82E 100%);
   }
   .pill { @apply inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-heading font-semibold uppercase tracking-wider; }
   .pill-clay { @apply pill bg-clay/10 text-clay border border-clay/20; }
@@ -115,7 +115,7 @@
     background-color: var(--bg-cream);
     background-image:
       radial-gradient(circle at 15% 15%, rgba(74, 139, 88, 0.10) 0%, transparent 35%),
-      radial-gradient(circle at 85% 75%, rgba(46, 123, 181, 0.07) 0%, transparent 40%);
+      radial-gradient(circle at 85% 75%, rgba(180, 70, 15, 0.07) 0%, transparent 40%);
   }
   .bg-sonoran-sand {
     background-color: var(--bg-sand);
@@ -126,14 +126,14 @@
   .bg-warm-radial {
     background:
       radial-gradient(ellipse at top, rgba(74, 139, 88, 0.12) 0%, transparent 55%),
-      radial-gradient(ellipse at bottom right, rgba(46, 123, 181, 0.07) 0%, transparent 50%),
+      radial-gradient(ellipse at bottom right, rgba(180, 70, 15, 0.07) 0%, transparent 50%),
       var(--bg-cream);
   }
   /* Field band — layered rolling hills = hills horizon */
   .horizon-band {
     background: linear-gradient(180deg,
       #2F6B3E 0% 18%, #4A8B58 18% 34%, #E0A82E 34% 48%,
-      #4A8B58 48% 62%, #2F6B3E 62% 78%, #2E7BB5 78% 100%);
+      #4A8B58 48% 62%, #2F6B3E 62% 78%, #B4460F 78% 100%);
   }
   .grain {
     background-image:
@@ -148,7 +148,7 @@
   .arch-divider::after {
     content: ""; position: absolute; inset: 0; margin: auto;
     width: 10rem; height: 1.4rem;
-    background: linear-gradient(90deg, #2F6B3E 0% 18%, #4A8B58 18% 40%, #E0A82E 40% 62%, #2E7BB5 62% 82%, #2F6B3E 82% 100%);
+    background: linear-gradient(90deg, #2F6B3E 0% 18%, #4A8B58 18% 40%, #E0A82E 40% 62%, #B4460F 62% 82%, #2F6B3E 82% 100%);
     border-radius: 0.5rem; opacity: 0.92;
   }
 
@@ -161,7 +161,7 @@
   .prose-warm li::before {
     content: ""; position: absolute; left: 0; top: 0.55em;
     width: 1.1rem; height: 0.5rem;
-    background: linear-gradient(90deg, #2F6B3E 0% 35%, #E0A82E 35% 70%, #2E7BB5 70% 100%);
+    background: linear-gradient(90deg, #2F6B3E 0% 35%, #E0A82E 35% 70%, #B4460F 70% 100%);
     border-radius: 0.15rem 0.5rem 0.15rem 0.5rem; opacity: 0.9;
   }
   .prose-warm strong { @apply text-espresso font-semibold; }
